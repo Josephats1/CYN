@@ -1,0 +1,27 @@
+.form-control {
+  width: 100%;
+  padding: 14px 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  color: #333;
+}
+
+.form-control::placeholder {
+  color: #999;
+  transition: 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: hotpink;
+  background-color: #ffe6f0; /* Light pink background */
+  box-shadow: 0 0 10px hotpink;
+  outline: none;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 100px;
+}
